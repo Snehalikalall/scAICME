@@ -1,0 +1,15 @@
+__pycache__/
+.ipynb_checkpoints/
+.env
+.venv/
+results/runs/
+data/raw/*
+!data/raw/.gitkeep
+data/prepared/*
+!data/prepared/.gitkeep
+*.h5ad
+*.loom
+*.h5
+*.mtx.gz
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying scAICME manuscript if you use these analysis materials."
+title: "scAICME: Adaptive Marker-Guided Semi-Supervised Framework for Single-Cell RNA-seq and Spatial Transcriptomics Data Analysis"
+type: software
+authors:
+  - family-names: Lall
+    given-names: Snehalika
+  - family-names: Laha
+    given-names: Adityarup
+  - family-names: Jha
+    given-names: Jayant
+  - family-names: Bandyopadhyay
+    given-names: Sanghamitra
+  - family-names: Chatterjee
+    given-names: Raghunath
+repository-code: "https://github.com/Snehalikalall/scAICME"
+keywords:
+  - single-cell RNA sequencing
+  - spatial transcriptomics
+  - marker-guided annotation
