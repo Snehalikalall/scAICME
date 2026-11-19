@@ -1,0 +1,614 @@
+panel	cell_label	gene	use_as_printed	source_keys
+breast	T cell	CD3D		travaglini2020,hao2021
+breast	T cell	CD3E		hao2021,zilionis2019
+breast	T cell	CD3G		travaglini2020,hao2021
+breast	T cell	TRAC		reynolds2021,hao2021
+breast	T cell	TRAT1		travaglini2020
+breast	T cell	BCL11B		travaglini2020
+breast	T cell	CD6		travaglini2020
+breast	T cell	CD5		travaglini2020
+breast	T cell	CD28		pal2021
+breast	NK cell	KLRF1		travaglini2020,hao2021
+breast	NK cell	SPON2		travaglini2020,hao2021
+breast	NK cell	KLRC1		travaglini2020,hao2021
+breast	NK cell	NCAM1		dominguezconde2022,hao2021
+breast	NK cell	NCR1		zilionis2019
+breast	NK cell	SH2D1B		travaglini2020
+breast	NK cell	CD3D	absent (unused)	reynolds2021
+breast	NK cell	CD3E	absent (unused)	travaglini2020
+breast	NK cell	CD3G	absent (unused)	reynolds2021
+breast	NK cell	TRAC	absent (unused)	---
+breast	B lineage	CD79A		hao2021,travaglini2020
+breast	B lineage	POU2AF1		travaglini2020
+breast	B cell	MS4A1		travaglini2020,hao2021
+breast	B cell	CD79B		travaglini2020,hao2021
+breast	B cell	BANK1		travaglini2020,hao2021
+breast	B cell	CD19		pal2021
+breast	B cell	CD22		travaglini2020
+breast	Plasma cell	MZB1		travaglini2020
+breast	Plasma cell	TNFRSF17		travaglini2020
+breast	Plasma cell	DERL3		travaglini2020
+breast	Plasma cell	JCHAIN		pal2021
+breast	Plasma cell	MS4A1	absent (unused)	kurkalang2023
+breast	Plasma cell	TNFRSF13B		travaglini2020
+breast	Plasma cell	SPAG4		travaglini2020
+breast	Plasma cell	SDC1	stage 2	travaglini2020
+breast	Myeloid	LYZ		travaglini2020,hao2021
+breast	Myeloid	AIF1		travaglini2020,hao2021
+breast	Myeloid	LST1		travaglini2020,hao2021
+breast	Myeloid	CSF1R		travaglini2020,zilionis2019
+breast	Myeloid	CD68		kumar2023,pal2021
+breast	Macrophage	C1QA		travaglini2020
+breast	Macrophage	C1QB		travaglini2020
+breast	Macrophage	APOE		travaglini2020,zilionis2019
+breast	Macrophage	CD163		pal2021
+breast	Macrophage	MRC1		pal2021
+breast	Macrophage	MSR1		pal2021
+breast	cDC	FCER1A		travaglini2020,hao2021
+breast	cDC	CD1C		travaglini2020,hao2021
+breast	cDC	CLEC10A		travaglini2020,hao2021
+breast	cDC	CLEC9A		kumar2023
+breast	cDC	XCR1		zilionis2019,villani2017
+breast	cDC	CD1E		travaglini2020
+breast	cDC	DNASE1L3		kumar2023
+breast	cDC	IDO1		kumar2023
+breast	cDC	WDFY4		kumar2023
+breast	Mast cell	TPSAB1		kumar2023
+breast	Mast cell	CPA3		kumar2023
+breast	Mast cell	KIT		travaglini2020
+breast	Mast cell	MS4A2		travaglini2020
+breast	Mast cell	HDC		travaglini2020
+breast	Mast cell	TPSB2		kumar2023
+breast	Mast cell	SLC18A2		travaglini2020
+breast	Mast cell	RGS13		travaglini2020
+breast	Mast cell	CMA1		kumar2023
+breast	Mast cell	IL1RL1		kumar2023
+breast	Epithelial	CDH1		---
+breast	Epithelial	PERP		travaglini2020
+breast	Epithelial	DSP		cheng2018,tie2024
+breast	Epithelial	PTPRC	absent (unused)	kumar2023,pal2021
+breast	Epithelial	EPCAM		kumar2023,pal2021
+breast	Epithelial	TACSTD2		kumar2023
+breast	Epithelial	KRT7		kumar2023
+breast	Epithelial	SPINT2		kumar2023
+breast	Basal-myoepithelial	KRT5		kumar2023,pal2021
+breast	Basal-myoepithelial	ACTA2		kumar2023,pal2021
+breast	Basal-myoepithelial	MYLK		kumar2023,pal2021
+breast	Basal-myoepithelial	KRT14		lim2009
+breast	Basal-myoepithelial	KRT17		kumar2023
+breast	Basal-myoepithelial	TP63		lim2009
+breast	Basal-myoepithelial	OXTR		reed2024
+breast	Basal-myoepithelial	ACTG2	stage 2	reed2024
+breast	Luminal progenitor	EPCAM		kumar2023,pal2021
+breast	Luminal progenitor	KRT8		lim2009
+breast	Luminal progenitor	KRT18		lim2009
+breast	Luminal progenitor	KRT19		lim2009
+breast	Luminal progenitor	KIT	stage 2	kumar2023,pal2021
+breast	Luminal progenitor	ELF5		kumar2023
+breast	Luminal progenitor	CCL28		reed2024
+breast	Luminal progenitor	SLPI		reed2024
+breast	Luminal progenitor	KRT15		reed2024
+breast	Luminal progenitor	MMP7		reed2024
+breast	Luminal progenitor	LTF		reed2024
+breast	Mature luminal	EPCAM		kumar2023,pal2021
+breast	Mature luminal	KRT8		lim2009
+breast	Mature luminal	KRT18		lim2009
+breast	Mature luminal	KRT19		lim2009
+breast	Mature luminal	ESR1		kumar2023,pal2021
+breast	Mature luminal	PGR		kumar2023,pal2021
+breast	Mature luminal	FOXA1		kumar2023,pal2021
+breast	Mature luminal	AR		kumar2023
+breast	Mature luminal	AGR2		reed2024
+breast	Mature luminal	TFF1		reed2024
+breast	Mature luminal	ANKRD30A		reed2024
+breast	Mature luminal	AREG		reed2024
+breast	Fibroblast	DCN		kumar2023
+breast	Fibroblast	COL1A1		kumar2023
+breast	Fibroblast	COL1A2		kumar2023
+breast	Fibroblast	LUM		travaglini2020
+breast	Fibroblast	FBLN1		travaglini2020
+breast	Fibroblast	COL3A1		kumar2023,pal2021
+breast	Fibroblast	PDGFRA		pal2021
+breast	Endothelial	PECAM1		kumar2023
+breast	Endothelial	CDH5		ma2023
+breast	Endothelial	CLDN5		kumar2023
+breast	Endothelial	VWF		pal2021
+breast	Endothelial	EMCN		travaglini2020
+breast	Endothelial	ESAM		travaglini2020
+breast	Endothelial	RAMP2		pal2021
+breast	Mural	ACTA2		travaglini2020,ma2023
+breast	Mural	TAGLN		kumar2023
+breast	Mural	MYL9		kumar2023
+breast	Mural	PDGFRB		kumar2023,pal2021
+breast	Mural	NOTCH3		travaglini2020
+breast	Pericyte	RGS5		kumar2023,pal2021
+breast	Pericyte	KCNJ8		travaglini2020
+breast	Pericyte	ABCC9		travaglini2020
+breast	Pericyte	HIGD1B		travaglini2020
+breast	Pericyte	GJA4		travaglini2020
+breast	Smooth muscle	MYH11		travaglini2020
+breast	Smooth muscle	CNN1		travaglini2020
+breast	Smooth muscle	DES		travaglini2020
+breast	Smooth muscle	KRT5	absent (unused)	kumar2023
+breast	Smooth muscle	KRT14	absent (unused)	kumar2023
+breast	Smooth muscle	PLN		travaglini2020
+breast	Smooth muscle	ACTG2		travaglini2020
+breast	Smooth muscle	LMOD1		travaglini2020
+lung	T cell	CD3D		travaglini2020
+lung	T cell	CD3E		zilionis2019
+lung	T cell	CD3G		travaglini2020
+lung	T cell	TRAC		reynolds2021,hao2021
+lung	T cell	TRAT1		travaglini2020
+lung	T cell	BCL11B		travaglini2020
+lung	T cell	CD6		travaglini2020
+lung	T cell	CD5		travaglini2020
+lung	T cell	CD28		zilionis2019
+lung	NK cell	KLRF1		travaglini2020
+lung	NK cell	SPON2		travaglini2020
+lung	NK cell	KLRC1		travaglini2020
+lung	NK cell	NCAM1		dominguezconde2022,hao2021
+lung	NK cell	NCR1		zilionis2019
+lung	NK cell	SH2D1B		travaglini2020
+lung	NK cell	CD3D	absent (unused)	reynolds2021
+lung	NK cell	CD3E	absent (unused)	travaglini2020
+lung	NK cell	CD3G	absent (unused)	reynolds2021
+lung	NK cell	TRAC	absent (unused)	---
+lung	B lineage	CD79A		travaglini2020
+lung	B lineage	POU2AF1		travaglini2020
+lung	B cell	MS4A1		travaglini2020
+lung	B cell	CD79B		travaglini2020
+lung	B cell	BANK1		travaglini2020
+lung	B cell	CD19		zilionis2019
+lung	B cell	CD22		travaglini2020
+lung	Plasma cell	MZB1		travaglini2020
+lung	Plasma cell	TNFRSF17		travaglini2020
+lung	Plasma cell	DERL3		travaglini2020
+lung	Plasma cell	JCHAIN		pal2021,reynolds2021
+lung	Plasma cell	MS4A1	absent (unused)	kurkalang2023
+lung	Plasma cell	TNFRSF13B		travaglini2020
+lung	Plasma cell	SPAG4		travaglini2020
+lung	Plasma cell	SDC1	stage 2	travaglini2020
+lung	Myeloid	LYZ		travaglini2020
+lung	Myeloid	AIF1		travaglini2020
+lung	Myeloid	LST1		travaglini2020
+lung	Myeloid	CSF1R		travaglini2020,zilionis2019
+lung	Myeloid	CD68		travaglini2020
+lung	Monocyte	FCN1		travaglini2020
+lung	Monocyte	S100A8		travaglini2020
+lung	Monocyte	S100A9		travaglini2020
+lung	Monocyte	S100A12		travaglini2020
+lung	Monocyte	VCAN		travaglini2020
+lung	Monocyte	MNDA		travaglini2020
+lung	Monocyte	CD14		travaglini2020
+lung	Macrophage	C1QA		travaglini2020
+lung	Macrophage	C1QB		travaglini2020
+lung	Macrophage	APOE		travaglini2020,zilionis2019
+lung	Macrophage	CD163		reynolds2021,pal2021
+lung	Macrophage	MRC1		travaglini2020,zilionis2019
+lung	Macrophage	MSR1		travaglini2020
+lung	Macrophage	MARCO		travaglini2020
+lung	cDC	FCER1A		travaglini2020
+lung	cDC	CD1C		travaglini2020
+lung	cDC	CLEC10A		travaglini2020
+lung	cDC	CLEC9A		travaglini2020
+lung	cDC	XCR1		zilionis2019
+lung	cDC	CD1E		travaglini2020
+lung	cDC	DNASE1L3		kumar2023
+lung	cDC	IDO1		kumar2023
+lung	cDC	WDFY4		kumar2023
+lung	pDC	LILRA4		travaglini2020,zilionis2019
+lung	pDC	IL3RA		travaglini2020
+lung	pDC	PLD4		travaglini2020
+lung	pDC	SERPINF1		travaglini2020
+lung	pDC	CLEC4C		villani2017
+lung	pDC	SCT		travaglini2020
+lung	pDC	LRRC26		travaglini2020
+lung	pDC	SMPD3		travaglini2020
+lung	pDC	PTPRS		travaglini2020
+lung	Neutrophil	CSF3R		travaglini2020,zilionis2019
+lung	Neutrophil	FCGR3B		travaglini2020,zilionis2019
+lung	Neutrophil	CXCR2		travaglini2020,zilionis2019
+lung	Neutrophil	CXCR1		travaglini2020
+lung	Neutrophil	IL1R2		travaglini2020
+lung	Neutrophil	CYP4F3		travaglini2020
+lung	Neutrophil	ADGRG3		travaglini2020
+lung	Neutrophil	MME		travaglini2020
+lung	Neutrophil	CMTM2		travaglini2020
+lung	Neutrophil	S100P	stage 2	travaglini2020
+lung	Mast cell	TPSAB1		travaglini2020
+lung	Mast cell	CPA3		travaglini2020
+lung	Mast cell	KIT		travaglini2020
+lung	Mast cell	MS4A2		travaglini2020
+lung	Mast cell	HDC		travaglini2020
+lung	Mast cell	TPSB2		reynolds2021,kumar2023
+lung	Mast cell	SLC18A2		travaglini2020
+lung	Mast cell	RGS13		travaglini2020
+lung	Mast cell	CMA1		kumar2023
+lung	Mast cell	IL1RL1		kumar2023
+lung	Erythroid	HBB		huang2020
+lung	Erythrocyte	HBB		zilionis2019
+lung	Erythrocyte	HBA1		zilionis2019
+lung	Erythrocyte	HBA2		zilionis2019
+lung	Epithelial	CDH1		---
+lung	Epithelial	PERP		travaglini2020
+lung	Epithelial	DSP		cheng2018,tie2024
+lung	Epithelial	PTPRC	absent (unused)	kumar2023,pal2021
+lung	Epithelial	EPCAM		travaglini2020,zilionis2019
+lung	Epithelial	KRT7		---
+lung	Epithelial	KRT8		---
+lung	Epithelial	KRT18		---
+lung	Epithelial	KRT19		---
+lung	AT1	AGER		travaglini2020
+lung	AT1	EMP2	stage 2	travaglini2020
+lung	AT1	RTKN2	stage 2	travaglini2020
+lung	AT1	SCEL		travaglini2020
+lung	AT1	CLIC5		travaglini2020
+lung	AT1	SPOCK2	stage 2	travaglini2020
+lung	AT2	SFTPC		travaglini2020
+lung	AT2	SFTPA1		travaglini2020
+lung	AT2	SFTPA2		travaglini2020
+lung	AT2	SFTPB		travaglini2020
+lung	AT2	NAPSA		travaglini2020
+lung	AT2	SLC34A2		travaglini2020
+lung	Club cell	SCGB1A1		travaglini2020,zilionis2019
+lung	Club cell	SCGB3A2		travaglini2020
+lung	Club cell	PIGR		travaglini2020
+lung	Ciliated cell	FOXJ1		travaglini2020
+lung	Ciliated cell	CAPS		travaglini2020
+lung	Ciliated cell	RSPH1		travaglini2020
+lung	Ciliated cell	SNTN		travaglini2020
+lung	Ciliated cell	C9orf24		travaglini2020
+lung	Ciliated cell	C20orf85		travaglini2020
+lung	Ciliated cell	FAM183A		travaglini2020
+lung	Ciliated cell	PIFO		travaglini2020
+lung	Ciliated cell	CCDC78		travaglini2020
+lung	Ciliated cell	DNAH5		travaglini2020
+lung	Fibroblast	DCN		kumar2023,ma2023
+lung	Fibroblast	COL1A1		kumar2023,ma2023
+lung	Fibroblast	COL1A2		kumar2023,ma2023
+lung	Fibroblast	LUM		travaglini2020
+lung	Fibroblast	FBLN1		travaglini2020
+lung	Fibroblast	COL3A1		kumar2023,pal2021
+lung	Fibroblast	PDGFRA		tie2024,pal2021
+lung	Endothelial	PECAM1		kumar2023,ma2023
+lung	Endothelial	CDH5		ma2023
+lung	Endothelial	CLDN5		travaglini2020
+lung	Endothelial	VWF		travaglini2020
+lung	Endothelial	EMCN		travaglini2020
+lung	Endothelial	ESAM		travaglini2020
+lung	Endothelial	RAMP2		tie2024,pal2021
+lung	Mural	ACTA2		travaglini2020
+lung	Mural	TAGLN		kumar2023,ma2023
+lung	Mural	MYL9		kumar2023,ma2023
+lung	Mural	PDGFRB		kumar2023,pal2021
+lung	Mural	NOTCH3		travaglini2020
+lung	Smooth muscle	MYH11		travaglini2020
+lung	Smooth muscle	CNN1		travaglini2020
+lung	Smooth muscle	DES		travaglini2020
+lung	Smooth muscle	PLN		travaglini2020
+lung	Smooth muscle	ACTG2		travaglini2020
+lung	Smooth muscle	LMOD1		travaglini2020
+oral	T cell	CD3D		travaglini2020,hao2021
+oral	T cell	CD3E		hao2021,zilionis2019
+oral	T cell	CD3G		travaglini2020,hao2021
+oral	T cell	TRAC		reynolds2021,hao2021
+oral	T cell	TRAT1		travaglini2020
+oral	T cell	BCL11B		travaglini2020
+oral	T cell	CD6		travaglini2020
+oral	T cell	CD5		travaglini2020
+oral	T cell	CD28		zilionis2019,pal2021
+oral	Treg	FOXP3		dominguezconde2022,hao2021
+oral	Treg	IL2RA		hao2021
+oral	Treg	CTLA4		kumar2023,hao2021
+oral	Treg	IKZF2		kumar2023,hao2021
+oral	Treg	TIGIT		kumar2023,hao2021
+oral	Treg	RTKN2		kumar2023,hao2021
+oral	Treg	TNFRSF18		zheng2017
+oral	Treg	CD4		dominguezconde2022,hao2021
+oral	Treg	LAYN		kumar2023
+oral	NK cell	KLRF1		travaglini2020,hao2021
+oral	NK cell	SPON2		travaglini2020,hao2021
+oral	NK cell	KLRC1		travaglini2020,hao2021
+oral	NK cell	NCAM1		dominguezconde2022,hao2021
+oral	NK cell	NCR1		zilionis2019
+oral	NK cell	SH2D1B		travaglini2020
+oral	NK cell	CD3D	absent (unused)	reynolds2021
+oral	NK cell	CD3E	absent (unused)	travaglini2020
+oral	NK cell	CD3G	absent (unused)	reynolds2021
+oral	NK cell	TRAC	absent (unused)	---
+oral	B lineage	CD79A		hao2021,travaglini2020
+oral	B lineage	POU2AF1		travaglini2020
+oral	B cell	MS4A1		travaglini2020,hao2021
+oral	B cell	CD79B		travaglini2020,hao2021
+oral	B cell	BANK1		travaglini2020,hao2021
+oral	B cell	CD19		zilionis2019,pal2021
+oral	B cell	CD22		travaglini2020
+oral	Plasma cell	MZB1		travaglini2020
+oral	Plasma cell	TNFRSF17		travaglini2020
+oral	Plasma cell	DERL3		travaglini2020
+oral	Plasma cell	JCHAIN		pal2021,reynolds2021
+oral	Plasma cell	MS4A1	absent (unused)	kurkalang2023
+oral	Plasma cell	TNFRSF13B		travaglini2020
+oral	Plasma cell	SPAG4		travaglini2020
+oral	Plasma cell	SDC1	stage 2	travaglini2020
+oral	Myeloid	LYZ		travaglini2020,hao2021
+oral	Myeloid	AIF1		travaglini2020,hao2021
+oral	Myeloid	LST1		travaglini2020,hao2021
+oral	Myeloid	CSF1R		travaglini2020,zilionis2019
+oral	Myeloid	CD68		kumar2023,travaglini2020,pal2021
+oral	Macrophage	C1QA		travaglini2020
+oral	Macrophage	C1QB		travaglini2020
+oral	Macrophage	APOE		travaglini2020,zilionis2019
+oral	Macrophage	CD163		reynolds2021,pal2021
+oral	Macrophage	MRC1		travaglini2020,zilionis2019,pal2021
+oral	Macrophage	MSR1		travaglini2020,pal2021
+oral	cDC	FCER1A		travaglini2020,hao2021
+oral	cDC	CD1C		travaglini2020,hao2021
+oral	cDC	CLEC10A		travaglini2020,hao2021
+oral	cDC	CLEC9A		travaglini2020,kumar2023,zheng2017
+oral	cDC	XCR1		zilionis2019,villani2017
+oral	cDC	CD1E		travaglini2020
+oral	cDC	DNASE1L3		kumar2023
+oral	cDC	IDO1		kumar2023
+oral	cDC	WDFY4		kumar2023
+oral	Mast cell	TPSAB1		travaglini2020,kumar2023
+oral	Mast cell	CPA3		travaglini2020,kumar2023
+oral	Mast cell	KIT		travaglini2020
+oral	Mast cell	MS4A2		travaglini2020
+oral	Mast cell	HDC		travaglini2020
+oral	Mast cell	TPSB2		reynolds2021,kumar2023
+oral	Mast cell	SLC18A2		travaglini2020
+oral	Mast cell	RGS13		travaglini2020
+oral	Mast cell	CMA1		kumar2023
+oral	Mast cell	IL1RL1		kumar2023
+oral	Epithelial	CDH1		---
+oral	Epithelial	PERP		travaglini2020
+oral	Epithelial	DSP		cheng2018,tie2024
+oral	Epithelial	PTPRC	absent (unused)	kumar2023,pal2021
+oral	Epithelial	KRT5		puram2017
+oral	Epithelial	KRT14		puram2017
+oral	Epithelial	KRT17		puram2017
+oral	Keratinocyte	KRT14		reynolds2021,ma2023
+oral	Keratinocyte	KRT1		reynolds2021,ma2023
+oral	Keratinocyte	DMKN		reynolds2021,ma2023
+oral	Keratinocyte	KRT5		reynolds2021
+oral	Keratinocyte	KRT10		reynolds2021
+oral	Keratinocyte	DSG1		cheng2018
+oral	Keratinocyte	TP63		reynolds2021
+oral	Keratinocyte	FLG		reynolds2021
+oral	Keratinocyte	LOR		reynolds2021
+oral	Keratinocyte	KRT4		williams2021
+oral	Keratinocyte	KRT13		williams2021
+oral	Fibroblast	DCN		kumar2023,ma2023
+oral	Fibroblast	COL1A1		kumar2023,ma2023
+oral	Fibroblast	COL1A2		kumar2023,ma2023
+oral	Fibroblast	LUM		travaglini2020
+oral	Fibroblast	FBLN1		travaglini2020
+oral	Fibroblast	COL3A1		kumar2023,pal2021
+oral	Fibroblast	PDGFRA		tie2024,pal2021
+oral	Endothelial	PECAM1		kumar2023,ma2023
+oral	Endothelial	CDH5		ma2023
+oral	Endothelial	CLDN5		kumar2023,travaglini2020,ma2023
+oral	Endothelial	VWF		pal2021,travaglini2020
+oral	Endothelial	EMCN		travaglini2020
+oral	Endothelial	ESAM		travaglini2020
+oral	Endothelial	RAMP2		tie2024,pal2021
+oral	Mural	ACTA2		travaglini2020,ma2023
+oral	Mural	TAGLN		kumar2023,ma2023
+oral	Mural	MYL9		kumar2023,ma2023
+oral	Mural	PDGFRB		kumar2023,pal2021
+oral	Mural	NOTCH3		travaglini2020
+oral	Pericyte	RGS5		kumar2023,pal2021
+oral	Pericyte	KCNJ8		travaglini2020
+oral	Pericyte	ABCC9		travaglini2020
+oral	Pericyte	HIGD1B		travaglini2020
+oral	Pericyte	GJA4		travaglini2020
+oral	Smooth muscle	MYH11		travaglini2020
+oral	Smooth muscle	CNN1		travaglini2020
+oral	Smooth muscle	DES		travaglini2020
+oral	Smooth muscle	PLN		travaglini2020
+oral	Smooth muscle	ACTG2		travaglini2020
+oral	Smooth muscle	LMOD1		travaglini2020
+pbmc	T cell	CD3D		hao2021
+pbmc	T cell	CD3E		hao2021
+pbmc	T cell	CD3G		hao2021
+pbmc	T cell	TRAC		hao2021
+pbmc	T cell	TRAT1		travaglini2020
+pbmc	T cell	BCL11B		travaglini2020
+pbmc	T cell	CD6		travaglini2020
+pbmc	T cell	CD5		travaglini2020
+pbmc	T cell	CD28		zilionis2019,pal2021
+pbmc	CD4 naive T	CD4		hao2021
+pbmc	CD4 naive T	CCR7	stage 2	hao2021
+pbmc	CD4 naive T	LEF1		hao2021
+pbmc	CD4 naive T	TCF7		hao2021
+pbmc	CD4 naive T	MAL		hao2021
+pbmc	CD4 naive T	NOSIP		hao2021
+pbmc	CD4 naive T	SELL		puram2017
+pbmc	CD4 naive T	CD8A	absent (unused)	travaglini2020
+pbmc	CD4 naive T	CD8B	absent (unused)	travaglini2020
+pbmc	CD4 memory T	CD4		hao2021
+pbmc	CD4 memory T	IL7R		hao2021
+pbmc	CD4 memory T	AQP3		hao2021
+pbmc	CD4 memory T	ITGB1		hao2021
+pbmc	CD4 memory T	S100A4	stage 2	---
+pbmc	CD4 memory T	CD8A	absent (unused)	travaglini2020
+pbmc	CD4 memory T	CD8B	absent (unused)	travaglini2020
+pbmc	Treg	FOXP3		hao2021
+pbmc	Treg	IL2RA		hao2021
+pbmc	Treg	CTLA4		hao2021
+pbmc	Treg	IKZF2		hao2021
+pbmc	Treg	TIGIT		hao2021
+pbmc	Treg	RTKN2		hao2021
+pbmc	Treg	TNFRSF18		zheng2017
+pbmc	Treg	CD4		hao2021
+pbmc	Treg	LAYN		kumar2023
+pbmc	CD8 naive T	CD8A		hao2021
+pbmc	CD8 naive T	CD8B		hao2021
+pbmc	CD8 naive T	CCR7	stage 2	hao2021
+pbmc	CD8 naive T	LEF1		hao2021
+pbmc	CD8 naive T	NOSIP		hao2021
+pbmc	CD8 naive T	TCF7		---
+pbmc	CD8 naive T	SELL		---
+pbmc	CD8 naive T	CD4	absent (unused)	---
+pbmc	CD8 effector memory T	CD8A		hao2021
+pbmc	CD8 effector memory T	CD8B		hao2021
+pbmc	CD8 effector memory T	GZMK		hao2021
+pbmc	CD8 effector memory T	GZMH	stage 2	hao2021
+pbmc	CD8 effector memory T	CCL5	stage 2	hao2021
+pbmc	CD8 effector memory T	NKG7	stage 2	hao2021
+pbmc	CD8 effector memory T	CTSW	stage 2	hao2021
+pbmc	CD8 effector memory T	GZMA	stage 2	travaglini2020
+pbmc	CD8 effector memory T	GNLY	stage 2	---
+pbmc	CD8 effector memory T	PRF1	stage 2	puram2017
+pbmc	CD8 effector memory T	CD4	absent (unused)	---
+pbmc	NK cell	KLRF1		hao2021
+pbmc	NK cell	SPON2		hao2021
+pbmc	NK cell	KLRC1		hao2021
+pbmc	NK cell	NCAM1		hao2021
+pbmc	NK cell	NCR1		zilionis2019
+pbmc	NK cell	SH2D1B		travaglini2020
+pbmc	NK cell	CD3D	absent (unused)	reynolds2021
+pbmc	NK cell	CD3E	absent (unused)	travaglini2020
+pbmc	NK cell	CD3G	absent (unused)	reynolds2021
+pbmc	NK cell	TRAC	absent (unused)	---
+pbmc	B lineage	CD79A		hao2021
+pbmc	B lineage	POU2AF1		travaglini2020
+pbmc	B cell	MS4A1		hao2021
+pbmc	B cell	CD79B		hao2021
+pbmc	B cell	BANK1		hao2021
+pbmc	B cell	CD19		zilionis2019,pal2021
+pbmc	B cell	CD22		travaglini2020
+pbmc	B cell	TCL1A		hao2021
+pbmc	B cell	VPREB3		travaglini2020
+pbmc	Myeloid	LYZ		hao2021
+pbmc	Myeloid	AIF1		hao2021
+pbmc	Myeloid	LST1		hao2021
+pbmc	Myeloid	CSF1R		travaglini2020,zilionis2019
+pbmc	Myeloid	CD68		kumar2023,travaglini2020,pal2021
+pbmc	Monocyte	FCN1		hao2021
+pbmc	Monocyte	S100A8		hao2021
+pbmc	Monocyte	S100A9		hao2021
+pbmc	Monocyte	S100A12		hao2021
+pbmc	Monocyte	VCAN		hao2021
+pbmc	Monocyte	MNDA		hao2021
+pbmc	Monocyte	CD14		hao2021
+pbmc	cDC	FCER1A		hao2021
+pbmc	cDC	CD1C		hao2021
+pbmc	cDC	CLEC10A		hao2021
+pbmc	cDC	CLEC9A		zheng2017
+pbmc	cDC	XCR1		villani2017
+pbmc	cDC	CD1E		travaglini2020
+pbmc	cDC	DNASE1L3		kumar2023
+pbmc	cDC	IDO1		kumar2023
+pbmc	cDC	WDFY4		kumar2023
+pbmc	pDC	LILRA4		hao2021
+pbmc	pDC	IL3RA		hao2021
+pbmc	pDC	PLD4		hao2021
+pbmc	pDC	SERPINF1		hao2021
+pbmc	pDC	CLEC4C		villani2017
+pbmc	pDC	SCT		travaglini2020
+pbmc	pDC	LRRC26		travaglini2020
+pbmc	pDC	SMPD3		travaglini2020
+pbmc	pDC	PTPRS		travaglini2020
+pbmc	Platelet	PPBP		hao2021
+pbmc	Platelet	PF4		hao2021
+pbmc	Platelet	GP9		hao2021
+pbmc	Platelet	TUBB1		hao2021
+pbmc	Platelet	GNG11		hao2021
+pbmc	Platelet	ITGA2B		travaglini2020
+pbmc	Platelet	TREML1		travaglini2020
+pbmc	Platelet	CMTM5		travaglini2020
+pbmc	Platelet	TMEM40		travaglini2020
+pbmc	HSPC	CD34		hao2021
+pbmc	HSPC	SPINK2		hao2021
+pbmc	HSPC	PRSS57		hao2021
+pbmc	HSPC	CYTL1		hao2021
+pbmc	HSPC	AVP		hao2021
+pbmc	HSPC	CRHBP		triana2021
+pbmc	HSPC	MEIS1		triana2021
+skin	T cell	CD3D		travaglini2020,hao2021
+skin	T cell	CD3E		hao2021,zilionis2019
+skin	T cell	CD3G		travaglini2020,hao2021
+skin	T cell	TRAC		reynolds2021
+skin	T cell	TRAT1		travaglini2020
+skin	T cell	BCL11B		travaglini2020
+skin	T cell	CD6		travaglini2020
+skin	T cell	CD5		travaglini2020
+skin	T cell	CD28		zilionis2019,pal2021
+skin	Myeloid	LYZ		travaglini2020,hao2021
+skin	Myeloid	AIF1		travaglini2020,hao2021
+skin	Myeloid	LST1		travaglini2020,hao2021
+skin	Myeloid	CSF1R		travaglini2020,zilionis2019
+skin	Myeloid	CD68		kumar2023,travaglini2020,pal2021
+skin	Myeloid	CD74		ma2023
+skin	Myeloid	HLA-DRA		ma2023
+skin	Myeloid	HLA-DPB1		ma2023
+skin	Myeloid	CD207		reynolds2021
+skin	Myeloid	CD1A		reynolds2021
+skin	Mast cell	TPSAB1		travaglini2020,kumar2023
+skin	Mast cell	CPA3		travaglini2020,kumar2023
+skin	Mast cell	KIT		travaglini2020
+skin	Mast cell	MS4A2		travaglini2020
+skin	Mast cell	HDC		travaglini2020
+skin	Mast cell	TPSB2		reynolds2021
+skin	Mast cell	CTSG		ma2023
+skin	Mast cell	HPGDS		travaglini2020
+skin	Mast cell	SLC18A2		travaglini2020
+skin	Mast cell	RGS13		travaglini2020
+skin	Mast cell	CMA1		kumar2023
+skin	Mast cell	IL1RL1		kumar2023
+skin	Epithelial	CDH1		---
+skin	Epithelial	PERP		travaglini2020
+skin	Epithelial	DSP		cheng2018,tie2024
+skin	Epithelial	PTPRC	absent (unused)	kumar2023,pal2021
+skin	Epithelial	SFN		reynolds2021
+skin	Keratinocyte	KRT14		reynolds2021,ma2023
+skin	Keratinocyte	KRT1		reynolds2021,ma2023
+skin	Keratinocyte	DMKN		reynolds2021,ma2023
+skin	Keratinocyte	KRT5		reynolds2021
+skin	Keratinocyte	KRT10		reynolds2021
+skin	Keratinocyte	DSG1		cheng2018
+skin	Keratinocyte	TP63		reynolds2021
+skin	Keratinocyte	FLG		reynolds2021
+skin	Keratinocyte	LOR		reynolds2021
+skin	Eccrine gland cell	PIP		ma2023
+skin	Eccrine gland cell	DCD		ma2023
+skin	Eccrine gland cell	MUCL1		ma2023
+skin	Eccrine gland cell	AQP5		tie2024
+skin	Eccrine gland cell	SCGB2A2		tie2024
+skin	Fibroblast	DCN		ma2023
+skin	Fibroblast	COL1A1		ma2023
+skin	Fibroblast	COL1A2		ma2023
+skin	Fibroblast	LUM		travaglini2020
+skin	Fibroblast	FBLN1		travaglini2020
+skin	Fibroblast	COL3A1		kumar2023,pal2021
+skin	Fibroblast	PDGFRA		tie2024,pal2021
+skin	Endothelial	PECAM1		ma2023
+skin	Endothelial	CDH5		ma2023
+skin	Endothelial	CLDN5		ma2023
+skin	Endothelial	VWF		pal2021,travaglini2020
+skin	Endothelial	EMCN		travaglini2020
+skin	Endothelial	ESAM		travaglini2020
+skin	Endothelial	RAMP2		tie2024,pal2021
+skin	Mural	ACTA2		ma2023
+skin	Mural	TAGLN		ma2023
+skin	Mural	MYL9		ma2023
+skin	Mural	PDGFRB		kumar2023,pal2021
+skin	Mural	NOTCH3		travaglini2020
+skin	Smooth muscle	MYH11		travaglini2020
+skin	Smooth muscle	CNN1		travaglini2020
+skin	Smooth muscle	DES		travaglini2020
+skin	Smooth muscle	PLN		travaglini2020
+skin	Smooth muscle	ACTG2		travaglini2020
+skin	Smooth muscle	LMOD1		travaglini2020
+skin	Melanocyte	DCT		reynolds2021,ma2023
+skin	Melanocyte	TYRP1		reynolds2021,ma2023
+skin	Melanocyte	PMEL		reynolds2021,ma2023
+skin	Melanocyte	MLANA		tirosh2016
+skin	Melanocyte	TYR		tirosh2016
+skin	Melanocyte	MITF		tirosh2016
+skin	Melanocyte	PAX3		---
+skin	Schwann cell	MPZ		ma2023
+skin	Schwann cell	PLP1		ma2023
+skin	Schwann cell	S100B		ma2023

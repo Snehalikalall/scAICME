@@ -1,0 +1,549 @@
+modality	workflow	cell_label	gene
+single_cell	pbmc68k	CD8+/CD45RA+ Naive Cytotoxic	CD3D
+single_cell	pbmc68k	CD8+/CD45RA+ Naive Cytotoxic	CD3E
+single_cell	pbmc68k	CD8+/CD45RA+ Naive Cytotoxic	TRAC
+single_cell	pbmc68k	CD8+/CD45RA+ Naive Cytotoxic	CD8A
+single_cell	pbmc68k	CD8+/CD45RA+ Naive Cytotoxic	CD8B
+single_cell	pbmc68k	CD8+/CD45RA+ Naive Cytotoxic	CCR7
+single_cell	pbmc68k	CD8+/CD45RA+ Naive Cytotoxic	LEF1
+single_cell	pbmc68k	CD8+/CD45RA+ Naive Cytotoxic	TCF7
+single_cell	pbmc68k	CD8+/CD45RA+ Naive Cytotoxic	LTB
+single_cell	pbmc68k	CD8+/CD45RA+ Naive Cytotoxic	IL7R
+single_cell	pbmc68k	CD8+/CD45RA+ Naive Cytotoxic	MAL
+single_cell	pbmc68k	CD8+/CD45RA+ Naive Cytotoxic	LST1
+single_cell	pbmc68k	CD4+/CD25 T Reg	CD3D
+single_cell	pbmc68k	CD4+/CD25 T Reg	CD3E
+single_cell	pbmc68k	CD4+/CD25 T Reg	TRAC
+single_cell	pbmc68k	CD4+/CD25 T Reg	CD4
+single_cell	pbmc68k	CD4+/CD25 T Reg	IL2RA
+single_cell	pbmc68k	CD4+/CD25 T Reg	FOXP3
+single_cell	pbmc68k	CD4+/CD25 T Reg	IKZF2
+single_cell	pbmc68k	CD4+/CD25 T Reg	CTLA4
+single_cell	pbmc68k	CD4+/CD25 T Reg	TIGIT
+single_cell	pbmc68k	CD4+/CD25 T Reg	TNFRSF18
+single_cell	pbmc68k	CD4+/CD25 T Reg	CCR7
+single_cell	pbmc68k	CD4+/CD25 T Reg	LTB
+single_cell	pbmc68k	CD8+ Cytotoxic T	CD3D
+single_cell	pbmc68k	CD8+ Cytotoxic T	CD3E
+single_cell	pbmc68k	CD8+ Cytotoxic T	TRAC
+single_cell	pbmc68k	CD8+ Cytotoxic T	CD8A
+single_cell	pbmc68k	CD8+ Cytotoxic T	CD8B
+single_cell	pbmc68k	CD8+ Cytotoxic T	NKG7
+single_cell	pbmc68k	CD8+ Cytotoxic T	GNLY
+single_cell	pbmc68k	CD8+ Cytotoxic T	GZMB
+single_cell	pbmc68k	CD8+ Cytotoxic T	GZMH
+single_cell	pbmc68k	CD8+ Cytotoxic T	PRF1
+single_cell	pbmc68k	CD8+ Cytotoxic T	CTSW
+single_cell	pbmc68k	CD8+ Cytotoxic T	KLRD1
+single_cell	pbmc68k	CD8+ Cytotoxic T	CCL5
+single_cell	pbmc68k	CD56+ NK	NKG7
+single_cell	pbmc68k	CD56+ NK	GNLY
+single_cell	pbmc68k	CD56+ NK	PRF1
+single_cell	pbmc68k	CD56+ NK	GZMB
+single_cell	pbmc68k	CD56+ NK	GZMH
+single_cell	pbmc68k	CD56+ NK	CTSW
+single_cell	pbmc68k	CD56+ NK	KLRD1
+single_cell	pbmc68k	CD56+ NK	FCGR3A
+single_cell	pbmc68k	CD56+ NK	TRDC
+single_cell	pbmc68k	CD56+ NK	XCL1
+single_cell	pbmc68k	CD56+ NK	XCL2
+single_cell	pbmc68k	CD19+ B	MS4A1
+single_cell	pbmc68k	CD19+ B	CD79A
+single_cell	pbmc68k	CD19+ B	CD79B
+single_cell	pbmc68k	CD19+ B	CD74
+single_cell	pbmc68k	CD19+ B	HLA-DRA
+single_cell	pbmc68k	CD19+ B	HLA-DRB1
+single_cell	pbmc68k	CD19+ B	CD37
+single_cell	pbmc68k	CD19+ B	CD19
+single_cell	pbmc68k	CD19+ B	BANK1
+single_cell	pbmc68k	CD19+ B	CD22
+single_cell	pbmc68k	CD19+ B	CD83
+single_cell	pbmc68k	CD14+ Monocyte	LYZ
+single_cell	pbmc68k	CD14+ Monocyte	S100A8
+single_cell	pbmc68k	CD14+ Monocyte	S100A9
+single_cell	pbmc68k	CD14+ Monocyte	CTSS
+single_cell	pbmc68k	CD14+ Monocyte	FCN1
+single_cell	pbmc68k	CD14+ Monocyte	LGALS3
+single_cell	pbmc68k	CD14+ Monocyte	LST1
+single_cell	pbmc68k	CD14+ Monocyte	TYROBP
+single_cell	pbmc68k	CD14+ Monocyte	FCER1G
+single_cell	pbmc68k	CD14+ Monocyte	CTSD
+single_cell	pbmc68k	CD14+ Monocyte	MNDA
+single_cell	pbmc68k	CD14+ Monocyte	IL1B
+single_cell	pbmc68k	CD4+/CD45RO+ Memory	CD3D
+single_cell	pbmc68k	CD4+/CD45RO+ Memory	CD3E
+single_cell	pbmc68k	CD4+/CD45RO+ Memory	TRAC
+single_cell	pbmc68k	CD4+/CD45RO+ Memory	CD4
+single_cell	pbmc68k	CD4+/CD45RO+ Memory	IL7R
+single_cell	pbmc68k	CD4+/CD45RO+ Memory	LTB
+single_cell	pbmc68k	CD4+/CD45RO+ Memory	CCR7
+single_cell	pbmc68k	CD4+/CD45RO+ Memory	MAL
+single_cell	pbmc68k	CD4+/CD45RO+ Memory	NOSIP
+single_cell	pbmc68k	CD4+/CD45RO+ Memory	TCF7
+single_cell	pbmc68k	CD4+/CD45RO+ Memory	LEF1
+single_cell	pbmc68k	CD4+/CD45RO+ Memory	CXCR4
+single_cell	pbmc68k	CD4+/CD45RA+/CD25- Naive T	CD3D
+single_cell	pbmc68k	CD4+/CD45RA+/CD25- Naive T	CD3E
+single_cell	pbmc68k	CD4+/CD45RA+/CD25- Naive T	TRAC
+single_cell	pbmc68k	CD4+/CD45RA+/CD25- Naive T	CD4
+single_cell	pbmc68k	CD4+/CD45RA+/CD25- Naive T	CCR7
+single_cell	pbmc68k	CD4+/CD45RA+/CD25- Naive T	LEF1
+single_cell	pbmc68k	CD4+/CD45RA+/CD25- Naive T	TCF7
+single_cell	pbmc68k	CD4+/CD45RA+/CD25- Naive T	IL7R
+single_cell	pbmc68k	CD4+/CD45RA+/CD25- Naive T	LTB
+single_cell	pbmc68k	CD4+/CD45RA+/CD25- Naive T	MAL
+single_cell	pbmc68k	CD4+/CD45RA+/CD25- Naive T	NOSIP
+single_cell	pbmc68k	CD4+/CD45RA+/CD25- Naive T	LST1
+single_cell	pbmc68k	Dendritic	FCER1A
+single_cell	pbmc68k	Dendritic	CD1C
+single_cell	pbmc68k	Dendritic	CLEC10A
+single_cell	pbmc68k	Dendritic	ITGAX
+single_cell	pbmc68k	Dendritic	LILRA4
+single_cell	pbmc68k	Dendritic	GZMB
+single_cell	pbmc68k	Dendritic	HLA-DRA
+single_cell	pbmc68k	Dendritic	HLA-DRB1
+single_cell	pbmc68k	Dendritic	IRF7
+single_cell	pbmc68k	CD34+	CD34
+single_cell	pbmc68k	CD34+	SPINK2
+single_cell	pbmc68k	CD34+	GATA2
+single_cell	pbmc68k	CD34+	MPO
+single_cell	pbmc68k	CD34+	HBB
+single_cell	pbmc68k	CD34+	TYMP
+single_cell	pbmc68k	CD34+	MEIS1
+single_cell	pbmc68k	CD34+	AVP
+single_cell	pbmc68k	CD4+ T Helper2	CD3D
+single_cell	pbmc68k	CD4+ T Helper2	CD3E
+single_cell	pbmc68k	CD4+ T Helper2	TRAC
+single_cell	pbmc68k	CD4+ T Helper2	CD4
+single_cell	pbmc68k	CD4+ T Helper2	IL7R
+single_cell	pbmc68k	CD4+ T Helper2	GATA3
+single_cell	pbmc68k	CD4+ T Helper2	IL4
+single_cell	pbmc68k	CD4+ T Helper2	IL5
+single_cell	pbmc68k	CD4+ T Helper2	IL13
+single_cell	pbmc68k	CD4+ T Helper2	CCR4
+single_cell	pbmc68k	CD4+ T Helper2	CCR6
+single_cell	pbmc68k	CD4+ T Helper2	ICOS
+single_cell	breast_gse161529	Tumor_Epithelial	EPCAM
+single_cell	breast_gse161529	Tumor_Epithelial	KRT8
+single_cell	breast_gse161529	Tumor_Epithelial	KRT18
+single_cell	breast_gse161529	Tumor_Epithelial	KRT19
+single_cell	breast_gse161529	Tumor_Epithelial	MUC1
+single_cell	breast_gse161529	Luminal	ESR1
+single_cell	breast_gse161529	Luminal	PGR
+single_cell	breast_gse161529	Luminal	GATA3
+single_cell	breast_gse161529	Luminal	FOXA1
+single_cell	breast_gse161529	Luminal	KRT18
+single_cell	breast_gse161529	HER2_Positive	ERBB2
+single_cell	breast_gse161529	HER2_Positive	GRB7
+single_cell	breast_gse161529	HER2_Positive	PGAP3
+single_cell	breast_gse161529	HER2_Positive	STARD3
+single_cell	breast_gse161529	HER2_Positive	MIEN1
+single_cell	breast_gse161529	Basal_TNBC	KRT5
+single_cell	breast_gse161529	Basal_TNBC	KRT14
+single_cell	breast_gse161529	Basal_TNBC	KRT17
+single_cell	breast_gse161529	Basal_TNBC	EGFR
+single_cell	breast_gse161529	Basal_TNBC	TP63
+single_cell	breast_gse161529	Proliferative_Tumor	MKI67
+single_cell	breast_gse161529	Proliferative_Tumor	TOP2A
+single_cell	breast_gse161529	Proliferative_Tumor	CCNB1
+single_cell	breast_gse161529	Proliferative_Tumor	AURKA
+single_cell	breast_gse161529	Proliferative_Tumor	BIRC5
+single_cell	breast_gse161529	T_CELL	CD3D
+single_cell	breast_gse161529	T_CELL	CD3E
+single_cell	breast_gse161529	T_CELL	CD3G
+single_cell	breast_gse161529	T_CELL	TRAC
+single_cell	breast_gse161529	T_CELL	IL7R
+single_cell	breast_gse161529	T_CELL	FOXP3
+single_cell	breast_gse161529	T_CELL	IL2RA
+single_cell	breast_gse161529	T_CELL	CTLA4
+single_cell	breast_gse161529	T_CELL	IKZF2
+single_cell	breast_gse161529	T_CELL	TNFRSF18
+single_cell	breast_gse161529	B_CELL	CD19
+single_cell	breast_gse161529	B_CELL	MS4A1
+single_cell	breast_gse161529	B_CELL	CD79A
+single_cell	breast_gse161529	B_CELL	CD79B
+single_cell	breast_gse161529	B_CELL	BANK1
+single_cell	breast_gse161529	Plasma	MZB1
+single_cell	breast_gse161529	Plasma	XBP1
+single_cell	breast_gse161529	Plasma	SDC1
+single_cell	breast_gse161529	Plasma	IGKC
+single_cell	breast_gse161529	Plasma	JCHAIN
+single_cell	breast_gse161529	NK	NKG7
+single_cell	breast_gse161529	NK	GNLY
+single_cell	breast_gse161529	NK	KLRD1
+single_cell	breast_gse161529	NK	KLRF1
+single_cell	breast_gse161529	NK	PRF1
+single_cell	breast_gse161529	Dendritic	ITGAX
+single_cell	breast_gse161529	Dendritic	CD1C
+single_cell	breast_gse161529	Dendritic	CLEC10A
+single_cell	breast_gse161529	Dendritic	CCR7
+single_cell	breast_gse161529	Dendritic	HLA-DRA
+single_cell	breast_gse161529	CAF	COL1A1
+single_cell	breast_gse161529	CAF	COL1A2
+single_cell	breast_gse161529	CAF	FAP
+single_cell	breast_gse161529	CAF	ACTA2
+single_cell	breast_gse161529	CAF	PDGFRA
+single_cell	breast_gse161529	Fibroblast	DCN
+single_cell	breast_gse161529	Fibroblast	LUM
+single_cell	breast_gse161529	Fibroblast	COL3A1
+single_cell	breast_gse161529	Fibroblast	COL6A1
+single_cell	breast_gse161529	Fibroblast	PDGFRB
+single_cell	breast_gse161529	Endothelial	PECAM1
+single_cell	breast_gse161529	Endothelial	VWF
+single_cell	breast_gse161529	Endothelial	KDR
+single_cell	breast_gse161529	Endothelial	CDH5
+single_cell	breast_gse161529	Endothelial	CLDN5
+single_cell	breast_gse161529	Pericyte	RGS5
+single_cell	breast_gse161529	Pericyte	PDGFRB
+single_cell	breast_gse161529	Pericyte	MCAM
+single_cell	breast_gse161529	Pericyte	KCNJ8
+single_cell	breast_gse161529	Pericyte	ABCC9
+single_cell	breast_gse161529	SmoothMuscle	ACTA2
+single_cell	breast_gse161529	SmoothMuscle	MYH11
+single_cell	breast_gse161529	SmoothMuscle	TAGLN
+single_cell	breast_gse161529	SmoothMuscle	CNN1
+single_cell	breast_gse161529	SmoothMuscle	CALD1
+single_cell	lung_gse127465	Tumor_Epithelial	EPCAM
+single_cell	lung_gse127465	Tumor_Epithelial	KRT7
+single_cell	lung_gse127465	Tumor_Epithelial	KRT8
+single_cell	lung_gse127465	Tumor_Epithelial	KRT18
+single_cell	lung_gse127465	Tumor_Epithelial	CEACAM5
+single_cell	lung_gse127465	Tumor_Epithelial	TP63
+single_cell	lung_gse127465	Tumor_Epithelial	SOX2
+single_cell	lung_gse127465	Tumor_Epithelial	NKX2-1
+single_cell	lung_gse127465	Fibroblast	PDGFRA
+single_cell	lung_gse127465	Fibroblast	PDGFRB
+single_cell	lung_gse127465	Fibroblast	ACTA2
+single_cell	lung_gse127465	Fibroblast	COL1A1
+single_cell	lung_gse127465	Fibroblast	COL3A1
+single_cell	lung_gse127465	Fibroblast	FAP
+single_cell	lung_gse127465	Fibroblast	LUM
+single_cell	lung_gse127465	Fibroblast	DCN
+single_cell	lung_gse127465	Endothelial	PECAM1
+single_cell	lung_gse127465	Endothelial	CDH5
+single_cell	lung_gse127465	Endothelial	VWF
+single_cell	lung_gse127465	Endothelial	FLT1
+single_cell	lung_gse127465	Endothelial	KDR
+single_cell	lung_gse127465	Endothelial	EPAS1
+single_cell	lung_gse127465	Endothelial	RAMP2
+single_cell	lung_gse127465	Myeloid	LYZ
+single_cell	lung_gse127465	Myeloid	CD68
+single_cell	lung_gse127465	Myeloid	CD14
+single_cell	lung_gse127465	Myeloid	CD163
+single_cell	lung_gse127465	Myeloid	MRC1
+single_cell	lung_gse127465	Myeloid	FCGR3A
+single_cell	lung_gse127465	Myeloid	ITGAX
+single_cell	lung_gse127465	Myeloid	HLA-DRA
+single_cell	lung_gse127465	TAM_Macrophage	SPP1
+single_cell	lung_gse127465	TAM_Macrophage	CCL18
+single_cell	lung_gse127465	TAM_Macrophage	MMP9
+single_cell	lung_gse127465	TAM_Macrophage	CD163
+single_cell	lung_gse127465	TAM_Macrophage	MSR1
+single_cell	lung_gse127465	TAM_Macrophage	CD86
+single_cell	lung_gse127465	Neutrophil	FCGR3B
+single_cell	lung_gse127465	Neutrophil	CXCR2
+single_cell	lung_gse127465	Neutrophil	S100A8
+single_cell	lung_gse127465	Neutrophil	S100A9
+single_cell	lung_gse127465	Tcell	CD3D
+single_cell	lung_gse127465	Tcell	CD3E
+single_cell	lung_gse127465	Tcell	TRAC
+single_cell	lung_gse127465	Tcell	CD8A
+single_cell	lung_gse127465	Tcell	CD4
+single_cell	lung_gse127465	Tcell	FOXP3
+single_cell	lung_gse127465	Tcell	IL7R
+single_cell	lung_gse127465	Tcell	GZMK
+single_cell	lung_gse127465	NK	NKG7
+single_cell	lung_gse127465	NK	GNLY
+single_cell	lung_gse127465	NK	PRF1
+single_cell	lung_gse127465	NK	GZMB
+single_cell	lung_gse127465	NK	KLRD1
+single_cell	lung_gse127465	NK	KLRF1
+single_cell	lung_gse127465	Bcell	MS4A1
+single_cell	lung_gse127465	Bcell	CD79A
+single_cell	lung_gse127465	Bcell	CD19
+single_cell	lung_gse127465	Bcell	CD74
+single_cell	lung_gse127465	Plasma	MZB1
+single_cell	lung_gse127465	Plasma	JCHAIN
+single_cell	lung_gse127465	Plasma	SDC1
+single_cell	lung_gse127465	Plasma	IGKC
+single_cell	oral_gse215403	Epithelial	EPCAM
+single_cell	oral_gse215403	Epithelial	KRT8
+single_cell	oral_gse215403	Epithelial	KRT18
+single_cell	oral_gse215403	Epithelial	KRT19
+single_cell	oral_gse215403	Epithelial	MUC1
+single_cell	oral_gse215403	Keratinocyte	KRT5
+single_cell	oral_gse215403	Keratinocyte	KRT14
+single_cell	oral_gse215403	Keratinocyte	KRT17
+single_cell	oral_gse215403	Keratinocyte	TP63
+single_cell	oral_gse215403	Keratinocyte	ITGA6
+single_cell	oral_gse215403	Keratinocyte	KRT1
+single_cell	oral_gse215403	Keratinocyte	KRT10
+single_cell	oral_gse215403	Keratinocyte	DSG1
+single_cell	oral_gse215403	Keratinocyte	FLG
+single_cell	oral_gse215403	Keratinocyte	LOR
+single_cell	oral_gse215403	Tumor	MKI67
+single_cell	oral_gse215403	Tumor	TOP2A
+single_cell	oral_gse215403	Tumor	CCNB1
+single_cell	oral_gse215403	Tumor	AURKA
+single_cell	oral_gse215403	Tumor	BIRC5
+single_cell	oral_gse215403	Tumor	VIM
+single_cell	oral_gse215403	Tumor	SNAI1
+single_cell	oral_gse215403	Tumor	ZEB1
+single_cell	oral_gse215403	Tumor	FN1
+single_cell	oral_gse215403	Tumor	CDH2
+single_cell	oral_gse215403	T_CELL	CD3D
+single_cell	oral_gse215403	T_CELL	CD3E
+single_cell	oral_gse215403	T_CELL	CD3G
+single_cell	oral_gse215403	T_CELL	TRAC
+single_cell	oral_gse215403	T_CELL	IL7R
+single_cell	oral_gse215403	T_CELL	CD8A
+single_cell	oral_gse215403	T_CELL	CD8B
+single_cell	oral_gse215403	T_CELL	GZMB
+single_cell	oral_gse215403	T_CELL	PRF1
+single_cell	oral_gse215403	T_CELL	NKG7
+single_cell	oral_gse215403	T_CELL	FOXP3
+single_cell	oral_gse215403	T_CELL	IL2RA
+single_cell	oral_gse215403	T_CELL	CTLA4
+single_cell	oral_gse215403	T_CELL	IKZF2
+single_cell	oral_gse215403	T_CELL	TNFRSF18
+single_cell	oral_gse215403	B_CELL	CD19
+single_cell	oral_gse215403	B_CELL	MS4A1
+single_cell	oral_gse215403	B_CELL	CD79A
+single_cell	oral_gse215403	B_CELL	CD79B
+single_cell	oral_gse215403	B_CELL	BANK1
+single_cell	oral_gse215403	NK	NKG7
+single_cell	oral_gse215403	NK	GNLY
+single_cell	oral_gse215403	NK	KLRD1
+single_cell	oral_gse215403	NK	KLRF1
+single_cell	oral_gse215403	NK	PRF1
+single_cell	oral_gse215403	Dendritic	ITGAX
+single_cell	oral_gse215403	Dendritic	CD1C
+single_cell	oral_gse215403	Dendritic	CLEC10A
+single_cell	oral_gse215403	Dendritic	CCR7
+single_cell	oral_gse215403	Dendritic	HLA-DRA
+single_cell	oral_gse215403	Fibroblast	DCN
+single_cell	oral_gse215403	Fibroblast	LUM
+single_cell	oral_gse215403	Fibroblast	COL3A1
+single_cell	oral_gse215403	Fibroblast	COL6A1
+single_cell	oral_gse215403	Fibroblast	PDGFRB
+single_cell	oral_gse215403	Endothelial	PECAM1
+single_cell	oral_gse215403	Endothelial	VWF
+single_cell	oral_gse215403	Endothelial	KDR
+single_cell	oral_gse215403	Endothelial	CDH5
+single_cell	oral_gse215403	Endothelial	CLDN5
+single_cell	oral_gse215403	Pericyte	RGS5
+single_cell	oral_gse215403	Pericyte	PDGFRB
+single_cell	oral_gse215403	Pericyte	MCAM
+single_cell	oral_gse215403	Pericyte	KCNJ8
+single_cell	oral_gse215403	Pericyte	ABCC9
+single_cell	oral_gse215403	SmoothMuscle	ACTA2
+single_cell	oral_gse215403	SmoothMuscle	MYH11
+single_cell	oral_gse215403	SmoothMuscle	TAGLN
+single_cell	oral_gse215403	SmoothMuscle	CNN1
+single_cell	oral_gse215403	SmoothMuscle	CALD1
+spatial	skin_gse225475	Keratinocyte	KRT14
+spatial	skin_gse225475	Keratinocyte	KRT1
+spatial	skin_gse225475	Keratinocyte	KRT10
+spatial	skin_gse225475	Keratinocyte	KRT6A
+spatial	skin_gse225475	Keratinocyte	KRT16
+spatial	skin_gse225475	Keratinocyte	DMKN
+spatial	skin_gse225475	Keratinocyte	S100A7
+spatial	skin_gse225475	Keratinocyte	S100A8
+spatial	skin_gse225475	Keratinocyte	S100A9
+spatial	skin_gse225475	Fibroblast	DCN
+spatial	skin_gse225475	Fibroblast	COL1A1
+spatial	skin_gse225475	Fibroblast	COL1A2
+spatial	skin_gse225475	Fibroblast	COL3A1
+spatial	skin_gse225475	Fibroblast	LUM
+spatial	skin_gse225475	Fibroblast	SFRP2
+spatial	skin_gse225475	Endothelial	PECAM1
+spatial	skin_gse225475	Endothelial	VWF
+spatial	skin_gse225475	Endothelial	CDH5
+spatial	skin_gse225475	Endothelial	KDR
+spatial	skin_gse225475	Endothelial	CLDN5
+spatial	skin_gse225475	Myeloid	LST1
+spatial	skin_gse225475	Myeloid	TYROBP
+spatial	skin_gse225475	Myeloid	FCER1G
+spatial	skin_gse225475	Myeloid	HLA-DRA
+spatial	skin_gse225475	Myeloid	CD74
+spatial	skin_gse225475	Myeloid	IL1B
+spatial	skin_gse225475	Myeloid	CLEC10A
+spatial	skin_gse225475	T_cell	CD3D
+spatial	skin_gse225475	T_cell	CD3E
+spatial	skin_gse225475	T_cell	TRAC
+spatial	skin_gse225475	T_cell	IL7R
+spatial	skin_gse225475	T_cell	LTB
+spatial	skin_gse225475	Mast	TPSAB1
+spatial	skin_gse225475	Mast	TPSB2
+spatial	skin_gse225475	Mast	CPA3
+spatial	skin_gse225475	Mast	KIT
+spatial	skin_gse225475	Smooth_muscle	ACTA2
+spatial	skin_gse225475	Smooth_muscle	TAGLN
+spatial	skin_gse225475	Smooth_muscle	MYL9
+spatial	skin_gse225475	Smooth_muscle	RGS5
+spatial	skin_gse225475	Eccrine_gland	DCD
+spatial	skin_gse225475	Eccrine_gland	PIP
+spatial	skin_gse225475	Eccrine_gland	MUCL1
+spatial	skin_gse225475	Eccrine_gland	KRT19
+spatial	oral_gse208253	B_cell	CD79A
+spatial	oral_gse208253	B_cell	MS4A1
+spatial	oral_gse208253	B_cell	CD37
+spatial	oral_gse208253	B_cell	CD74
+spatial	oral_gse208253	B_cell	HLA-DRA
+spatial	oral_gse208253	B_cell	CD22
+spatial	oral_gse208253	Cancer_cell	EPCAM
+spatial	oral_gse208253	Cancer_cell	KRT8
+spatial	oral_gse208253	Cancer_cell	KRT18
+spatial	oral_gse208253	Cancer_cell	KRT19
+spatial	oral_gse208253	Cancer_cell	KRT14
+spatial	oral_gse208253	Cancer_cell	KRT17
+spatial	oral_gse208253	Cytotoxic_CD8_T	CD3D
+spatial	oral_gse208253	Cytotoxic_CD8_T	CD3E
+spatial	oral_gse208253	Cytotoxic_CD8_T	CD8A
+spatial	oral_gse208253	Cytotoxic_CD8_T	CD8B
+spatial	oral_gse208253	Cytotoxic_CD8_T	NKG7
+spatial	oral_gse208253	Cytotoxic_CD8_T	CCL5
+spatial	oral_gse208253	Cytotoxic_CD8_T	GZMK
+spatial	oral_gse208253	Cytotoxic_CD8_T	GZMB
+spatial	oral_gse208253	Dendritic	CD1C
+spatial	oral_gse208253	Dendritic	FCER1A
+spatial	oral_gse208253	Dendritic	CLEC10A
+spatial	oral_gse208253	Dendritic	HLA-DRA
+spatial	oral_gse208253	Dendritic	HLA-DPA1
+spatial	oral_gse208253	Dendritic	CST3
+spatial	oral_gse208253	Detox_iCAF	ADH1B
+spatial	oral_gse208253	Detox_iCAF	GPX3
+spatial	oral_gse208253	Detox_iCAF	CFD
+spatial	oral_gse208253	Detox_iCAF	APOD
+spatial	oral_gse208253	Detox_iCAF	DCN
+spatial	oral_gse208253	Detox_iCAF	LUM
+spatial	oral_gse208253	ECM_myCAF	LRRC15
+spatial	oral_gse208253	ECM_myCAF	GJB2
+spatial	oral_gse208253	ECM_myCAF	COL1A1
+spatial	oral_gse208253	ECM_myCAF	COL1A2
+spatial	oral_gse208253	ECM_myCAF	COL3A1
+spatial	oral_gse208253	ECM_myCAF	POSTN
+spatial	oral_gse208253	ECM_myCAF	FN1
+spatial	oral_gse208253	ECM_myCAF	THBS2
+spatial	oral_gse208253	Endothelial	PECAM1
+spatial	oral_gse208253	Endothelial	VWF
+spatial	oral_gse208253	Endothelial	CDH5
+spatial	oral_gse208253	Endothelial	CLDN5
+spatial	oral_gse208253	Endothelial	KDR
+spatial	oral_gse208253	Endothelial	EMCN
+spatial	oral_gse208253	Intermediate_fibroblast	CXCL1
+spatial	oral_gse208253	Intermediate_fibroblast	PDPN
+spatial	oral_gse208253	Intermediate_fibroblast	DCN
+spatial	oral_gse208253	Intermediate_fibroblast	LUM
+spatial	oral_gse208253	Intermediate_fibroblast	COL1A1
+spatial	oral_gse208253	Intermediate_fibroblast	COL3A1
+spatial	oral_gse208253	Macrophage	C1QA
+spatial	oral_gse208253	Macrophage	C1QB
+spatial	oral_gse208253	Macrophage	C1QC
+spatial	oral_gse208253	Macrophage	APOE
+spatial	oral_gse208253	Macrophage	CD68
+spatial	oral_gse208253	Macrophage	FCGR3A
+spatial	oral_gse208253	Macrophage	CTSD
+spatial	oral_gse208253	Mast	TPSAB1
+spatial	oral_gse208253	Mast	TPSB2
+spatial	oral_gse208253	Mast	CPA3
+spatial	oral_gse208253	Mast	KIT
+spatial	oral_gse208253	Mast	MS4A2
+spatial	oral_gse208253	Mast	HDC
+spatial	oral_gse208253	Myofibroblast	ACTA2
+spatial	oral_gse208253	Myofibroblast	TAGLN
+spatial	oral_gse208253	Myofibroblast	MYL9
+spatial	oral_gse208253	Myofibroblast	TPM2
+spatial	oral_gse208253	Myofibroblast	CALD1
+spatial	oral_gse208253	Myofibroblast	CNN1
+spatial	oral_gse208253	Treg	FOXP3
+spatial	oral_gse208253	Treg	IL2RA
+spatial	oral_gse208253	Treg	CTLA4
+spatial	oral_gse208253	Treg	TIGIT
+spatial	oral_gse208253	Treg	IKZF2
+spatial	oral_gse208253	Treg	TNFRSF18
+spatial	breast_gse243022	CAF	FAP
+spatial	breast_gse243022	CAF	COL1A1
+spatial	breast_gse243022	CAF	COL1A2
+spatial	breast_gse243022	CAF	COL3A1
+spatial	breast_gse243022	CAF	DCN
+spatial	breast_gse243022	CAF	LUM
+spatial	breast_gse243022	CAF	PDGFRA
+spatial	breast_gse243022	CAF	COL6A1
+spatial	breast_gse243022	Detox_iCAF	GPC3
+spatial	breast_gse243022	Detox_iCAF	ADH1B
+spatial	breast_gse243022	Detox_iCAF	GPX3
+spatial	breast_gse243022	Detox_iCAF	APOD
+spatial	breast_gse243022	Detox_iCAF	CFD
+spatial	breast_gse243022	Detox_iCAF	C7
+spatial	breast_gse243022	Detox_iCAF	DCN
+spatial	breast_gse243022	Detox_iCAF	LUM
+spatial	breast_gse243022	IL_iCAF	DLK1
+spatial	breast_gse243022	IL_iCAF	IL6
+spatial	breast_gse243022	IL_iCAF	CXCL12
+spatial	breast_gse243022	IL_iCAF	CXCL14
+spatial	breast_gse243022	IL_iCAF	CXCL1
+spatial	breast_gse243022	IL_iCAF	CCL2
+spatial	breast_gse243022	IL_iCAF	CFD
+spatial	breast_gse243022	IL_iCAF	APOD
+spatial	breast_gse243022	IFNg_iCAF	CCL19
+spatial	breast_gse243022	IFNg_iCAF	CD74
+spatial	breast_gse243022	IFNg_iCAF	EMILIN1
+spatial	breast_gse243022	IFNg_iCAF	HLA-DRA
+spatial	breast_gse243022	IFNg_iCAF	HLA-DPA1
+spatial	breast_gse243022	IFNg_iCAF	HLA-DPB1
+spatial	breast_gse243022	IFNg_iCAF	CXCL9
+spatial	breast_gse243022	IFNg_iCAF	CXCL10
+spatial	breast_gse243022	ECM_myCAF	SDC1
+spatial	breast_gse243022	ECM_myCAF	COL1A1
+spatial	breast_gse243022	ECM_myCAF	COL1A2
+spatial	breast_gse243022	ECM_myCAF	COL3A1
+spatial	breast_gse243022	ECM_myCAF	COL5A1
+spatial	breast_gse243022	ECM_myCAF	FN1
+spatial	breast_gse243022	ECM_myCAF	POSTN
+spatial	breast_gse243022	ECM_myCAF	THBS2
+spatial	breast_gse243022	TGFb_myCAF	LAMP5
+spatial	breast_gse243022	TGFb_myCAF	ACTA2
+spatial	breast_gse243022	TGFb_myCAF	TAGLN
+spatial	breast_gse243022	TGFb_myCAF	MYL9
+spatial	breast_gse243022	TGFb_myCAF	TPM2
+spatial	breast_gse243022	TGFb_myCAF	TGFBI
+spatial	breast_gse243022	TGFb_myCAF	CALD1
+spatial	breast_gse243022	TGFb_myCAF	CNN1
+spatial	lung_gse292299	Tumor_Epithelial	EPCAM
+spatial	lung_gse292299	Tumor_Epithelial	KRT8
+spatial	lung_gse292299	Tumor_Epithelial	KRT18
+spatial	lung_gse292299	Tumor_Epithelial	KRT19
+spatial	lung_gse292299	Fibroblast	COL1A1
+spatial	lung_gse292299	Fibroblast	COL1A2
+spatial	lung_gse292299	Fibroblast	DCN
+spatial	lung_gse292299	Fibroblast	LUM
+spatial	lung_gse292299	Endothelial	PECAM1
+spatial	lung_gse292299	Endothelial	VWF
+spatial	lung_gse292299	Endothelial	CLDN5
+spatial	lung_gse292299	Endothelial	CDH5
+spatial	lung_gse292299	Tcell	CD3D
+spatial	lung_gse292299	Tcell	CD3E
+spatial	lung_gse292299	Tcell	TRAC
+spatial	lung_gse292299	NK	NKG7
+spatial	lung_gse292299	NK	GNLY
+spatial	lung_gse292299	NK	KLRD1
+spatial	lung_gse292299	NK	PRF1
+spatial	lung_gse292299	Bcell	MS4A1
+spatial	lung_gse292299	Bcell	CD79A
+spatial	lung_gse292299	Bcell	CD74
+spatial	lung_gse292299	Plasma	MZB1
+spatial	lung_gse292299	Plasma	JCHAIN
+spatial	lung_gse292299	Plasma	SDC1
+spatial	lung_gse292299	Myeloid	LST1
+spatial	lung_gse292299	Myeloid	TYROBP
+spatial	lung_gse292299	Myeloid	FCER1G
+spatial	lung_gse292299	TAM_Macrophage	C1QA
+spatial	lung_gse292299	TAM_Macrophage	C1QB
+spatial	lung_gse292299	TAM_Macrophage	C1QC
+spatial	lung_gse292299	TAM_Macrophage	APOE
+spatial	lung_gse292299	TAM_Macrophage	CD68
+spatial	lung_gse292299	Neutrophil	FCGR3B
+spatial	lung_gse292299	Neutrophil	CSF3R
+spatial	lung_gse292299	Neutrophil	S100A8
+spatial	lung_gse292299	Neutrophil	S100A9

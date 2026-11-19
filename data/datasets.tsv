@@ -1,0 +1,13 @@
+modality	dataset	accession	source_url	notebook_path	inputs_and_scope
+single_cell	PBMC 68K	10x PBMC 68K	https://www.10xgenomics.com/datasets/fresh-68-k-pbm-cs-donor-a-1-standard-1-1-0	notebooks/single_cell/pbmc68k.ipynb	Filtered hg19 MEX; pbmc_annot.csv with reference labels
+single_cell	Skin	GSE173706	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE173706		Manuscript dataset; no separate single-cell skin notebook supplied
+single_cell	Oral SCC	GSE215403	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE215403	notebooks/single_cell/oral_gse215403.ipynb	Prepared GSE215403_combined.h5ad
+single_cell	Lung	GSE127465	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE127465	notebooks/single_cell/lung_gse127465.ipynb	Prepared GSE127465_human_processed.h5ad
+single_cell	Breast	GSE161529	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE161529	notebooks/single_cell/breast_gse161529.ipynb	Prepared GSE161529_combined.h5ad; reference labels from Figshare item 17058077
+single_cell	PBMC CITE-seq (Hao)	GSE164378	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164378		Manuscript dataset; no dedicated notebook supplied
+single_cell	Bone marrow CITE-seq	GSE194122	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194122		Manuscript dataset; no dedicated notebook supplied
+single_cell	Adult human retina	GSE148077	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148077		Manuscript dataset; labels from Single Cell Portal SCP839; no dedicated notebook supplied
+spatial	Skin	GSE225475	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225475	notebooks/spatial/skin_gse225475.ipynb	Visium NS1, NS2, PP1, PP2, PP3, PP4
+spatial	Oral SCC	GSE208253	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE208253	notebooks/spatial/oral_gse208253.ipynb	Visium s1 through s12
+spatial	Breast	GSE243022	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243022	notebooks/spatial/breast_gse243022.ipynb	Visium A1, B1, C1, D1
+spatial	Lung NSCLC	GSE292299	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292299	notebooks/spatial/lung_gse292299.ipynb	Visium P1, P2, P4, P5
