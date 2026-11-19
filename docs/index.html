@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="scAICME research notebooks, curated marker panels, spatial results, and figures for marker-guided cell and tissue annotation.">
+  <title>scAICME · Marker-guided cell annotation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header><div class="wrap mast"><a class="wordmark" href="#main">sc<span>AICME</span></a><nav aria-label="Project navigation"><a href="#datasets">Datasets</a><a href="#results">Results</a><a href="https://github.com/Snehalikalall/scAICME">GitHub ↗</a></nav></div></header>
+  <main id="main" class="wrap">
+    <div class="hero">
+      <section class="intro" aria-labelledby="title"><p class="byline">Indian Statistical Institute · Computational biology</p><h1 id="title">sc<span>AICME</span></h1>
+        <p class="subtitle">Marker-guided annotation of single cells and spatial tissue sections.</p>
+        <p>A tissue-specific marker panel identifies candidate seed cells. Classifiers learn from those seeds, assign labels and record how often their predictions agree.</p>
+        <div class="links"><a class="primary" href="https://github.com/Snehalikalall/scAICME/tree/main/notebooks">Explore the notebooks <span aria-hidden="true">↗</span></a><a href="https://github.com/Snehalikalall/scAICME/blob/main/data/README.md">Get the data <span aria-hidden="true">↗</span></a></div>
+      </section>
+      <figure class="feature"><a href="https://github.com/Snehalikalall/scAICME/blob/main/results/figures/Skin_original_vs_label_consensus.png" aria-label="Open the full-resolution skin section figure"><img src="assets/skin-spatial.webp" alt="Psoriatic skin section PP4. Histology is shown beside the same section with spots coloured by the predicted cell population." width="1480" height="588"></a><figcaption><strong>Psoriatic skin · Section PP4</strong><span>Histology and consensus labels on the same tissue coordinates.</span></figcaption></figure>
+    </div>
+    <section id="datasets" class="section" aria-labelledby="dataheading"><div class="section-title"><h2 id="dataheading">Datasets and notebooks</h2><a href="https://github.com/Snehalikalall/scAICME/blob/main/data/datasets.tsv">Full study manifest ↗</a></div>
+    <p>Open a notebook by tissue and assay. Each data guide gives the public source and the files the analysis expects.</p>
+    <div class="tablebox"><table><thead><tr><th scope="col">Tissue</th><th scope="col">Single-cell RNA-seq</th><th scope="col">Spatial transcriptomics</th></tr></thead><tbody>
+    <tr><th scope="row">PBMC</th><td><a href="https://github.com/Snehalikalall/scAICME/blob/main/notebooks/single_cell/pbmc68k.ipynb">PBMC 68K ↗</a></td><td><span aria-label="Not applicable">—</span></td></tr>
+<tr><th scope="row">Skin</th><td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE173706">GSE173706 · data only ↗</a></td><td><a href="https://github.com/Snehalikalall/scAICME/blob/main/notebooks/spatial/skin_gse225475.ipynb">GSE225475 ↗</a></td></tr>
+<tr><th scope="row">Oral</th><td><a href="https://github.com/Snehalikalall/scAICME/blob/main/notebooks/single_cell/oral_gse215403.ipynb">GSE215403 ↗</a></td><td><a href="https://github.com/Snehalikalall/scAICME/blob/main/notebooks/spatial/oral_gse208253.ipynb">GSE208253 ↗</a></td></tr>
+<tr><th scope="row">Breast</th><td><a href="https://github.com/Snehalikalall/scAICME/blob/main/notebooks/single_cell/breast_gse161529.ipynb">GSE161529 ↗</a></td><td><a href="https://github.com/Snehalikalall/scAICME/blob/main/notebooks/spatial/breast_gse243022.ipynb">GSE243022 ↗</a></td></tr>
+<tr><th scope="row">Lung</th><td><a href="https://github.com/Snehalikalall/scAICME/blob/main/notebooks/single_cell/lung_gse127465.ipynb">GSE127465 ↗</a></td><td><a href="https://github.com/Snehalikalall/scAICME/blob/main/notebooks/spatial/lung_gse292299.ipynb">GSE292299 ↗</a></td></tr>
+    </tbody></table></div>
+    <div class="inline-links"><a href="https://github.com/Snehalikalall/scAICME/blob/main/data/manuscript_markers.tsv">Curated manuscript panels ↗</a><a href="https://github.com/Snehalikalall/scAICME/blob/main/data/notebook_markers.tsv">Notebook marker panels ↗</a></div>
+    </section>
+    <section id="results" class="section" aria-labelledby="resultheading"><div class="section-title"><h2 id="resultheading">Spatial results</h2><a href="https://github.com/Snehalikalall/scAICME/tree/main/results/figures">Original figures ↗</a></div><p>These four scAICME measurements agree between the manuscript and the saved notebook outputs. Counts below are the spots in each notebook’s final comparison graph.</p>
+    <div class="tablebox"><table class="numeric"><thead><tr><th scope="col">Tissue</th><th scope="col">Spots</th><th scope="col">Coherence</th><th scope="col">Inconsistency</th><th scope="col">Moran’s I</th></tr></thead><tbody>
+    <tr><th scope="row">Skin</th><td>7,184</td><td>0.834363</td><td>0.165637</td><td>0.443570</td></tr>
+<tr><th scope="row">Oral SCC</th><td>24,921</td><td>0.751890</td><td>0.248110</td><td>0.262611</td></tr>
+<tr><th scope="row">Breast</th><td>3,216</td><td>0.766428</td><td>0.233572</td><td>0.382354</td></tr>
+<tr><th scope="row">Lung NSCLC</th><td>28,531</td><td>0.727955</td><td>0.272045</td><td>0.289200</td></tr>
+    </tbody></table></div>
+    <p class="note">Coherence measures the fraction of neighbouring pairs with matching labels. The results guide records differences in comparator values, method names and spot counts across the two sources.</p>
+    <div class="inline-links"><a href="https://github.com/Snehalikalall/scAICME/blob/main/results/README.md">Results and provenance ↗</a><a href="https://github.com/Snehalikalall/scAICME/blob/main/results/spatial_crosscheck.csv">Source comparison ↗</a></div></section>
+    <section id="paper" class="paper"><h2>The manuscript</h2><div><p class="paper-title">scAICME: Adaptive Marker-Guided Semi-Supervised Framework for Single-Cell RNA-seq and Spatial Transcriptomics Data Analysis</p><p>Snehalika Lall*, Adityarup Laha*, Jayant Jha, Sanghamitra Bandyopadhyay and Raghunath Chatterjee.</p><p class="note">*Equal contribution. The notebooks document the tissue-specific analyses. The manuscript also describes a later hierarchical classifier.</p><a href="https://github.com/Snehalikalall/scAICME/blob/main/CITATION.cff">Citation metadata ↗</a></div></section>
+  </main>
+  <footer><div class="wrap">scAICME <a href="https://github.com/Snehalikalall/scAICME">Project repository ↗</a></div></footer>
+</body>
+</html>
