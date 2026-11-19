@@ -1,0 +1,9 @@
+supplied_filename	release_path
+scAICME_pbmc_updated(20261119-142205).ipynb	notebooks/single_cell/pbmc68k.ipynb
+semisupervised_breast.ipynb	notebooks/single_cell/breast_gse161529.ipynb
+semisupervised_lung.ipynb	notebooks/single_cell/lung_gse127465.ipynb
+semisupervised_oral.ipynb	notebooks/single_cell/oral_gse215403.ipynb
+scaicme_skin_patial_semisupervised.ipynb	notebooks/spatial/skin_gse225475.ipynb
+scaicme_oral_gse208253_spatial.ipynb	notebooks/spatial/oral_gse208253.ipynb
+scaicme_breast_gse243022_spatial.ipynb	notebooks/spatial/breast_gse243022.ipynb
+scaicme_LUNG_gse243022_spatial.ipynb	notebooks/spatial/lung_gse292299.ipynb
