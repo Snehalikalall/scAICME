@@ -1,5 +1,7 @@
 # Analysis notebooks
 
+For a first run, open the [PBMC notebook](single_cell/pbmc68k.ipynb) and choose **Run All Cells** in a fresh checkout. It reads the [bundled 700-cell H5AD](../data/demo/pbmc700.h5ad) and writes predictions and an annotated H5AD under `results/runs/pbmc_demo/`. To run the same notebook from a terminal, follow the [quick-start example](../README.md#run-the-pbmc-demo).
+
 Run each notebook with its own fresh Python kernel. The first code cell locates the repository, configures input paths and creates a tissue-specific output directory. Standard preprocessing, seed assignment, classification and the available annotation plots run with the core requirements. Set `RUN_COMPARISONS = True` only when the input data and optional environment for those cells are ready.
 
 | Analysis | Main output | Optional methods |
