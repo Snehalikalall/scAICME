@@ -4,6 +4,16 @@
 
 Download expression data from each study’s source record. Use the **Supplementary files** section on GEO for processed matrices and tissue-position files. Large expression matrices and histology archives belong in the local folders described below. Raw study data are distributed by the original data providers.
 
+## PBMC demo
+
+[Download pbmc700.h5ad](https://raw.githubusercontent.com/Snehalikalall/scAICME/main/data/demo/pbmc700.h5ad) · [Run the example](../README.md#run-the-pbmc-demo)
+
+This teaching file contains 700 real PBMCs and 765 genes from **10x Genomics, Fresh 68k PBMCs (Donor A)**, as processed and distributed by Scanpy. The original dataset is available under CC BY 4.0. [10x Genomics dataset](https://www.10xgenomics.com/datasets/fresh-68-k-pbm-cs-donor-a-1-standard-1-1-0) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [Scanpy preparation](https://scanpy.readthedocs.io/en/stable/api/generated/scanpy.datasets.pbmc68k_reduced.html)
+
+The file retains the cell order, barcodes and gene symbols of Scanpy 1.12.2's reduced example. Its sparse `X` matrix is copied from the source object's `raw.X` and holds unscaled, **log-normalized expression**. The demo reads it on that scale. `obs["reference_label"]` contains the original `bulk_labels` for comparison after fitting. The input contains no predicted labels or precomputed embeddings.
+
+The small run uses a minimum of 10 cells for a qualifying mixture cluster and for a retained seed label. The full-study run uses its original minimum of 100 for both. The example demonstrates how to run the workflow and inspect its outputs. The paper's cohort results are in the [results guide](../results/README.md).
+
 ## Single-cell inputs
 
 | Notebook | Expected input relative to the repository root | Preparation |
