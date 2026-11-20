@@ -26,7 +26,7 @@ Annotate **700 real peripheral blood mononuclear cells across 765 genes** with t
    python scripts/run_demo.py
    ```
 
-3. Open `results/runs/pbmc_demo/predictions.csv`. It contains **700 rows**, one per cell barcode. `label_consensus` is the winning cell label and `consensus_agree_frac` is the fraction of all five methods voting for it. For example, a value of **0.8** means **four of five** methods voted for that label. `annotated.h5ad` contains the expression matrix and predictions, and `executed_demo.ipynb` contains the completed notebook with figures.
+3. Open `results/runs/pbmc_demo/predictions.csv`. It contains **700 rows**, one per cell barcode. `label_consensus` is the winning cell label and `consensus_agree_frac` is the fraction of all five methods voting for it. For example, a value of **0.8** means **four of five** methods voted for that label. The same directory contains `annotated.h5ad` with the expression matrix and predictions, plus a marker dot plot and heatmap as PNG files.
 
 **To run interactively**, use the same environment and enter `python -m jupyterlab notebooks/single_cell/pbmc68k.ipynb`. Choose **Run → Run All Cells**. A fresh checkout selects the demo automatically. The command-line runner always selects the demo, including when the full study data are present. [Open the notebook on GitHub](notebooks/single_cell/pbmc68k.ipynb)
 
