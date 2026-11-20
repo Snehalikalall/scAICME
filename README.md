@@ -4,7 +4,7 @@
 
 Snehalika Lall and Adityarup Laha (equal contribution), Jayant Jha, Sanghamitra Bandyopadhyay and Raghunath Chatterjee · Indian Statistical Institute, Kolkata.
 
-[Project page](https://snehalikalall.github.io/scAICME/) · [Data and accessions](data/README.md) · [Analysis notebooks](notebooks/README.md) · [Results and provenance](results/README.md)
+[Run the PBMC demo](#run-the-pbmc-demo) · [Project page](https://snehalikalall.github.io/scAICME/) · [Data and accessions](data/README.md) · [Analysis notebooks](notebooks/README.md) · [Results and provenance](results/README.md)
 
 scAICME uses expression of tissue-specific markers to select seed labels, then trains classifiers on the seeds and records their agreement for each cell or spatial spot. In a Visium section, the label describes the predominant expression signal in a spot that can contain multiple cells.
 
@@ -12,7 +12,32 @@ scAICME uses expression of tissue-specific markers to select seed labels, then t
 
 *Psoriatic skin, GSE225475. The manuscript pairs the tissue image with the spatial distribution of consensus labels. The [full-resolution figure](results/figures/Skin_original_vs_label_consensus.png) is available with the other results.*
 
-## Start here
+## Run the PBMC demo
+
+Annotate **700 real peripheral blood mononuclear cells across 765 genes** with the same five-method workflow used in the PBMC notebook. The repository includes a 452 KiB AnnData file and runs on a CPU. [Download pbmc700.h5ad](https://raw.githubusercontent.com/Snehalikalall/scAICME/main/data/demo/pbmc700.h5ad) · [Dataset source and preparation](data/README.md#pbmc-demo)
+
+1. [Download the repository ZIP](https://github.com/Snehalikalall/scAICME/archive/refs/heads/main.zip), extract it, and open a terminal in the folder containing `requirements.txt`. Alternatively, run `git clone https://github.com/Snehalikalall/scAICME.git` and then `cd scAICME`.
+2. Create the environment and run the example. The first three commands are the one-time setup. Use the last command to repeat the analysis.
+
+   ```bash
+   conda create -n scaicme-demo python=3.13 pip -y
+   conda activate scaicme-demo
+   python -m pip install -r requirements.txt
+   python scripts/run_demo.py
+   ```
+
+3. Open `results/runs/pbmc_demo/predictions.csv`. It contains **700 rows**, one per cell barcode. `label_consensus` is the winning cell label and `consensus_agree_frac` is the fraction of all five methods voting for it. For example, a value of **0.8** means **four of five** methods voted for that label. The same directory contains `annotated.h5ad` with the expression matrix and predictions, plus a marker dot plot and heatmap as PNG files.
+
+**To run interactively**, use the same environment and enter `python -m jupyterlab notebooks/single_cell/pbmc68k.ipynb`. Choose **Run → Run All Cells**. A fresh checkout selects the demo automatically. The command-line runner always selects the demo, including when the full study data are present. [Open the notebook on GitHub](notebooks/single_cell/pbmc68k.ipynb)
+
+The first two cells in a test run with Python 3.13.9, Scanpy 1.12.2 and scikit-learn 1.7.2 illustrate how to read the output. The second cell shows why agreement between methods and agreement with the reference are different quantities.
+
+| Cell barcode | Source reference | Predicted consensus | Agreement |
+| --- | --- | --- | ---: |
+| `AAAGCCTGGCTAAC-1` | CD14+ Monocyte | CD14+ Monocyte | 4/5 |
+| `AAATTCGATGCACA-1` | Dendritic | CD14+ Monocyte | 5/5 |
+
+## Run the study analyses
 
 To inspect the saved spatial results, run this command from the repository root with Python 3. It reads the included CSVs and requires only the standard library.
 
@@ -20,7 +45,7 @@ To inspect the saved spatial results, run this command from the repository root 
 python scripts/show_spatial_results.py
 ```
 
-To run an analysis, use a separate Python environment and prepare the inputs for one tissue. The data guide gives the archive accession, expected local layout and required reference files for each notebook.
+To run a full study analysis, prepare the inputs for one tissue. The data guide gives the archive accession, expected local layout and required reference files for each notebook. You can reuse the environment above or create a separate one.
 
 ```bash
 conda create -n scaicme-notebooks python=3.11 pip -y

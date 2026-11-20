@@ -8,6 +8,7 @@ data/raw/*
 data/prepared/*
 !data/prepared/.gitkeep
 *.h5ad
+!data/demo/pbmc700.h5ad
 *.loom
 *.h5
 *.mtx.gz
