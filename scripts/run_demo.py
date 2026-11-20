@@ -2,10 +2,8 @@
 import os
 from pathlib import Path
 
-import nbformat
-from jupyter_client import AsyncKernelManager
-from jupyter_client.kernelspec import KernelSpecManager
-from nbclient import NotebookClient
+import matplotlib
+from IPython.core.interactiveshell import InteractiveShell
 
 
 def main():
@@ -15,16 +13,14 @@ def main():
     if not data.is_file():
         raise SystemExit(f"Missing demo input: {data}. Download the complete repository ZIP.")
     output = root / "results" / "runs" / "pbmc_demo"
-    print(f"Running {source.name} on {data.name} with a fresh kernel...", flush=True)
-    notebook = nbformat.read(source, as_version=4)
-    # Use the current Python installation, even if another user-level kernel is registered.
-    manager = AsyncKernelManager(kernel_name="python3", kernel_spec_manager=KernelSpecManager(kernel_dirs=[]))
-    client = NotebookClient(notebook, km=manager, timeout=900)
-    client.execute(cwd=str(root), env={**os.environ, "SCAICME_PBMC_MODE": "demo"}, cleanup_kc=True)
-    nbformat.write(notebook, output / "executed_demo.ipynb")
+    print(f"Running {source.name} on {data.name}...", flush=True)
+    os.chdir(root)
+    os.environ["SCAICME_PBMC_MODE"] = "demo"
+    matplotlib.use("Agg")
+    # Execute the notebook cells in order with the interpreter that launched this script.
+    InteractiveShell.instance().safe_execfile_ipy(source, raise_exceptions=True)
     print(f"Finished. Open {output / 'predictions.csv'}")
     print(f"Annotated data: {output / 'annotated.h5ad'}")
-    print(f"Executed notebook: {output / 'executed_demo.ipynb'}")
 
 
 if __name__ == "__main__":
